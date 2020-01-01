@@ -199,7 +199,7 @@ double testArraySort(T* array, int length, SortMethod sortMethod,
 	if (performanceCalculation)
 	{
 		resultTime = getCounter();
-		std::cout << "resultTime: " << getCounter() << "\n";
+		std::cout << "Result time: " << getCounter() << "\n";
 	}
 
 #ifdef _DEBUG
